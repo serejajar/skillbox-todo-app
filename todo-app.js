@@ -2,7 +2,7 @@
   // создаем и возвращаем заголовок приложения
   function createAppTitle(title) {
     let appTitle = document.createElement('h2');
-    appTitle.innerHtml = title;
+    appTitle.innerHTML = title;
 
     return appTitle;
   }
